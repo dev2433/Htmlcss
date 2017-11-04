@@ -1,0 +1,153 @@
+	/* global styling */ 
+	
+	* {
+
+	box-sizing      : border-box;
+
+	}
+	
+	body {
+	
+	font-family     : "Arial","Helvetica Neue", Helvetica, sans-serif;
+	font-size       : 18px;
+	background      : #777;
+	color           : #777;
+	
+	}
+	
+	/* set a default width for the content and center on page */
+	#wrapper {
+	
+	width           : 960px;
+	margin          : auto;
+	
+	}
+	
+	/* styling for header */
+	header {
+	
+	background      : #ebebeb;
+	line-height     : 75px;
+	margin-bottom   : 10px;
+	text-align      : center;
+
+	}
+	
+	
+	
+	h1 {
+	
+	font-size       : 18px;
+	font-weight     : normal;
+	
+	}
+	
+	/* styling for navigation */
+	
+	nav {
+	
+	font-size       : 18px;
+	font-weight     : normal;
+	background      : #ebebeb;
+	line-height     : 75px;
+	text-align      : center;
+	margin-bottom   : 20px;
+	
+	}
+	
+	/* content holder for content and sidebar */
+	
+	.container {
+	
+	width           : 960px;
+	position        : relative;
+	border          : 0px;
+	background-color: #ebebeb;
+	overflow        : hidden;
+	
+	}
+	
+	.container1 {
+	
+	float           : left;
+	position        : relative;
+	right           : 445px;
+	background      : #777;
+	
+	}
+	
+	/* styling for section holder for article */
+	section {
+
+	float           : left;
+	width           : 495px;
+	position        : relative;
+	left            :445px;
+	margin-right    : 20px;
+	overflow        : hidden;
+	background      : #ebebeb;
+	padding-top     : 25px;
+	text-align      : center;
+	
+	}
+	
+	
+	/* styling for article */
+
+	article {
+
+	background      : #777;
+	color           : #ebebeb;
+	padding         : 10px;
+	margin          : 10px;
+	
+	}
+	
+	/* styling for article title */
+	h2 {
+
+	background      : #ebebeb;
+	color           : #777;
+	padding         : 10px;
+	font-size       : 18px;
+
+	}
+	
+	/* styling for article paragraphs */
+	p {
+
+	background      : #ebebeb;
+	color           : #777;
+	padding         : 10px;
+	margin-bottom   : 15px;
+
+	}
+	
+	/* styling for sidebar */
+	aside {
+	
+	float           : left;
+	width           : 445px;
+	position        : relative;
+	left            : 445px;
+	padding         : 20px;
+	overflow        : hidden;
+	text-align      : center;
+	
+	}
+	
+	/* styling for footer */
+	footer {
+	
+	font-size       : 18px;
+	font-weight     : normal;
+	background      : #ebebeb;
+	line-height     : 75px;
+	text-align      : center;
+	margin-top      : 20px;
+	
+	}
+	
+	.clear {
+	clear           : left;
+	}
